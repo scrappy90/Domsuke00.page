@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#323642">
+  <title>Domsuke · Ilustradora</title>
+  <meta name="description" content="Domsuke (Dominique) — ilustradora especializada en concept art, diseño de personajes, cómics y storyboards.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Figtree = texto. Baloo 2 = respaldo mientras no esté la fuente Boring Time en /fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <!-- Marca que hay JavaScript: las animaciones de entrada solo se ocultan si el JS va a mostrarlas -->
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <div class="mat">
+    <div class="page">
+
+      <!-- ============ CABECERA ============ -->
+      <header id="inicio">
+        <a class="handle" href="https://instagram.com/domsuke01" target="_blank" rel="noopener">@domsuke01</a>
+
+        <a class="logo" href="#inicio" aria-label="Domsuke, ilustradora. Ir al inicio">
+          <img class="logo-mark" src="images/logo.png" alt="" width="320" height="481">
+          <span class="logo-text">
+            <span class="wordmark">Domsuke</span>
+            <span class="tagline">Ilustradora</span>
+          </span>
+        </a>
+
+        <nav aria-label="Secciones" id="mainNav">
+          <a href="#inicio" class="nav-link active" aria-current="true">Inicio</a>
+          <a href="galeria.html" class="nav-link">Trabajos destacados</a>
+          <a href="#contacto" class="nav-link">Contacto</a>
+        </nav>
+      </header>
+
+      <main>
+
+        <!-- ============ HERO ============ -->
+        <section class="hero">
+          <div class="hero-text">
+            <h1 class="hero-title">¡Conóceme!</h1>
+            <p class="lead">
+              ¡Hola! Soy Dominique, mi nombre artístico es <strong>Domsuke</strong>. Soy ilustradora y mi pasión es crear personajes y ayudar a las personas a traer su visión a la realidad con mis ilustraciones. Me especializo en concept art, diseño de personajes para videojuegos, cómics y storyboards. ¡Espero que disfrutes de mi trabajo!
+            </p>
+            <a class="btn" href="#contacto">Escríbeme</a>
+          </div>
+
+          <div class="hero-frame">
+            <div
+              class="ph-slot tilt-frame"
+              data-lightbox-trigger
+              data-title="Ilustración de bienvenida"
+              data-category="Obra Principal · Domsuke"
+              data-desc="Ilustración destacada de bienvenida · Haz clic para ver en tamaño completo.">
+              <img
+                src="images/hero-ilustracion.png"
+                data-drive-src="https://drive.google.com/thumbnail?id=1ghMEGeC-eFbD6AjxHAw7TtOT1LLMHh8D&sz=w1600"
+                alt="Ilustración de bienvenida">
+              <span class="zoom-pill" aria-hidden="true">Ampliar ↗</span>
+              <div class="ph-fallback">
+                <span>Tu ilustración de bienvenida<br><code>images/hero-ilustracion.png</code></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ TRABAJOS DESTACADOS ============ -->
+        <section id="trabajos" class="gallery">
+          <h2 class="reveal">Trabajos destacados</h2>
+
+          <div class="grid stagger">
+            <a class="piece ph-slot" style="--i:0;--pos:50% 22%" href="galeria.html#obra-2" aria-label="Ver Eris en la galería">
+              <img src="images/galeria/02-t.jpg" alt="Eris" width="640" height="800" loading="lazy">
+              <div class="piece-caption">
+                <span>Ilustración</span>
+                <strong>Eris · Ver ↗</strong>
+              </div>
+            </a>
+
+            <a class="piece ph-slot" style="--i:1;--pos:50% 40%" href="galeria.html#obra-6" aria-label="Ver Atardecer en la ciudad en la galería">
+              <img src="images/galeria/06-t.jpg" alt="Atardecer en la ciudad" width="640" height="800" loading="lazy">
+              <div class="piece-caption">
+                <span>Ilustración</span>
+                <strong>Atardecer en la ciudad · Ver ↗</strong>
+              </div>
+            </a>
+
+            <a class="piece ph-slot" style="--i:2;--pos:50% 40%" href="galeria.html#obra-4" aria-label="Ver Sacerdote y moribundo en la galería">
+              <img src="images/galeria/04-t.jpg" alt="Sacerdote y moribundo" width="640" height="800" loading="lazy">
+              <div class="piece-caption">
+                <span>Ilustración</span>
+                <strong>Sacerdote y moribundo · Ver ↗</strong>
+              </div>
+            </a>
+
+            <a class="piece ph-slot" style="--i:3;--pos:50% 25%" href="galeria.html#obra-9" aria-label="Ver Capa de piel en la galería">
+              <img src="images/galeria/09-t.jpg" alt="Capa de piel" width="640" height="800" loading="lazy">
+              <div class="piece-caption">
+                <span>Diseño de personajes</span>
+                <strong>Capa de piel · Ver ↗</strong>
+              </div>
+            </a>
+
+            <a class="piece ph-slot" style="--i:4;--pos:50% 35%" href="galeria.html#obra-14" aria-label="Ver Hombre tigre · Espalda en la galería">
+              <img src="images/galeria/14-t.jpg" alt="Hombre tigre · Espalda" width="640" height="800" loading="lazy">
+              <div class="piece-caption">
+                <span>Concept art</span>
+                <strong>Hombre tigre · Espalda · Ver ↗</strong>
+              </div>
+            </a>
+
+            <a class="piece ph-slot" style="--i:5;--pos:50% 50%" href="galeria.html#obra-3" aria-label="Ver Captain K'nuckles en la galería">
+              <img src="images/galeria/03-t.jpg" alt="Captain K'nuckles" width="640" height="800" loading="lazy">
+              <div class="piece-caption">
+                <span>Fan art</span>
+                <strong>Captain K'nuckles · Ver ↗</strong>
+              </div>
+            </a>
+          </div>
+
+          <a class="btn-outline reveal" href="galeria.html">Ver todos los trabajos <span class="arrow" aria-hidden="true">→</span></a>
+        </section>
+
+        <!-- ============ BANDA ¿QUIERES SABER MÁS? ============ -->
+        <section class="cta-band">
+          <h2 class="reveal">¿Quieres saber más?</h2>
+          <p class="reveal" style="--delay:.08s">Escríbeme por mis redes o por correo. Estoy en X, en Instagram y en mi email.</p>
+          <a class="btn reveal" style="--delay:.16s" href="#contacto">Ir a contacto</a>
+        </section>
+
+        <!-- ============ CONTACTO ============ -->
+        <section id="contacto" class="contact">
+          <h2 class="reveal">Contacto</h2>
+          <p class="reveal" style="--delay:.08s">Para encargos, colaboraciones o simplemente para saludar — elige el medio que prefieras.</p>
+
+          <div class="contact-list stagger">
+            <div class="contact-item" style="--i:0">
+              <div>
+                <small>Twitter / X</small>
+                <a href="https://x.com/Domsuke01" target="_blank" rel="noopener" class="contact-link">@Domsuke01 ↗</a>
+              </div>
+              <button type="button" data-copy="@Domsuke01">Copiar</button>
+            </div>
+
+            <div class="contact-item" style="--i:1">
+              <div>
+                <small>Instagram</small>
+                <a href="https://instagram.com/domsuke01" target="_blank" rel="noopener" class="contact-link">@domsuke01 ↗</a>
+              </div>
+              <button type="button" data-copy="@domsuke01">Copiar</button>
+            </div>
+
+            <div class="contact-item" style="--i:2">
+              <div>
+                <small>Email</small>
+                <a href="mailto:domsuke01@gmail.com" class="contact-link">domsuke01@gmail.com</a>
+              </div>
+              <button type="button" data-copy="domsuke01@gmail.com">Copiar</button>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- ============ PIE ============ -->
+      <footer>
+        <span>Fauve Dominique · Domsuke, ilustradora</span>
+        <span>@Domsuke01 · @domsuke01 · domsuke01@gmail.com</span>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- ============ VISOR AMPLIADO ============ -->
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lbTitle">
+    <div class="lightbox-backdrop" data-lb-close></div>
+    <div class="lightbox-dialog">
+      <button type="button" class="lb-close" id="lbClose" data-lb-close aria-label="Cerrar vista ampliada">✕</button>
+      <button type="button" class="lb-nav lb-prev" id="lbPrev" aria-label="Anterior">‹</button>
+      <figure class="lb-figure">
+        <div class="lb-img-box">
+          <img id="lbImg" src="" alt="">
+        </div>
+        <figcaption class="lb-caption">
+          <span class="lb-badge" id="lbCategory"></span>
+          <h3 id="lbTitle"></h3>
+          <p id="lbDesc"></p>
+        </figcaption>
+      </figure>
+      <button type="button" class="lb-nav lb-next" id="lbNext" aria-label="Siguiente">›</button>
+    </div>
+  </div>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
